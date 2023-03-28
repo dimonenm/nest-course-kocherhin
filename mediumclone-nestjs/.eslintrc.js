@@ -22,4 +22,15 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
   },
+  "prettier/prettier": [
+    "error",
+    {
+      "singleQuote": true,
+      "trailingComma": "none",
+      "useTabs": false,
+      "semi": true,
+      "bracketSpacing": true,
+      "endOfLine": "off"
+    }
+  ]
 };
